@@ -7,7 +7,7 @@ using namespace std;
 int main( )
 {
     vector<string> msg {"Hello", "C++", "world" "from"};
-    for ( const string& word: msg )
+    for ( const string& word:  msg )
     {
         cout << word << " ";
     }
